@@ -3,7 +3,7 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777777;
-  background: url("../images/concrete_seamless.png");
+  
 }
 
 * {
@@ -214,4 +214,50 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+
+@media screen and (max-width: 980px){
+  body {
+    background-color: #777777;
+  }
+   .main-section {
+     color: #062f68;
+   }
+
+   #logo {
+     background: #691112;
+   }
+}
+
+@media screen and (max-width: 769px) {
+
+  #masthead {
+      background-color: rgb(87, 87, 87);
+  }
+  body {
+    background-color: rgb(87, 87, 87);
+  }
+
+  .main-section {
+    background-color: rgb(77, 77, 77);
+    color: #e978a1;
+  }
+}
+
+@media screen and (max-width: 640px){
+  #masthead {
+    position: static;
+    background-color: #111;
+    color: #8796af;
+    margin-bottom: 10px;
+  }
+
+  body {
+    background-color: #111;
+  }
+
+  .main-section{
+    background-color: rgb(77, 77, 77);
+    color: #4aaaa5;
+  }
 }
